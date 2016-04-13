@@ -34,8 +34,6 @@ coffee mostCommonWords.coffee ./file.txt
 
 - [ ] Change countedWords to an object for faster iterating (takes ages right now for long files)
 
-
-
 ## siteStatus.coffee
 
 Checks a website's status. The first number parameter defines the request count and the second defines the interval between requests (in seconds).
@@ -51,3 +49,10 @@ coffee siteStatus.coffee http://xyzzy.com 20 2
 + [ ] HTTPS
 + [ ] Account for other statuses than 200 (like redirect)
 
+## taija.coffee
+
+A demonstrative emulation script of my life and my chances.
+
+```coffee
+coffee taija.coffee
+```
